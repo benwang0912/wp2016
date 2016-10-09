@@ -2,21 +2,60 @@
 <html>
 
 <head>
+  <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="app.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="application.js"></script>
 </head>
 
-<frameset rows="10%,*" frameborder = "0">
-  <frame src="top.html" name="top">
-  <frameset cols="15%,*" frameborder = "0">
-    <frame src="link.html" name="links">
-    <frame src="display.html" name="display">
-  </frameset>
-</frameset>
+<body>
 
+  <header class="banner"> 
+    <p id="profile"> Profile </p>
+  </header>
 
+  <aside>
+
+    <!--My protrait-->
+    <section>
+      <img src="photo.jpg" height="120" width="120">
+      <p>
+        <font face="DFKai-sb">
+          我是王心平<br>
+          以下是我學習網頁的歷程:<br>
+        </font>
+      </p>
+    </section>
+    <!--Works links -->
+    <section>
+      <p>Works:</p>
+      <ul>
+        <li><a href="myFirstPage.html" target="_blank" title="myFirstPage" class="links"> my first webpage<br>(Hello World)</a></li>
+        <li><a href="index.html" target="_blank" title="Self Introduce" class="links"> my second webpage<br>(self intro)</a></li>
+      </ul>
+    </section>
+    <!--Reference links-->
+    <section>
+      <p>References:</p>
+      <ul>
+        <li><a href="http://www.w3schools.com/" target="_blank" class="links">W3School</a></li>
+      </ul>
+    </section>
+
+  </aside>
+  
+  <!--Display works and links-->
+  <main>
+    <section class="display">
+      <p>display here</p>
+    </section>
+  </main>
+  
+  <footer>
+    <p style="padding:5px 20px;">footer</p>
+  </footer>
+<body>  
 
 </html>
 
 
-
-<!--  <p class="keepOnTop">Profile</p> -->
