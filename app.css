@@ -6,17 +6,20 @@ html, body, h1, h2, h3, a, p, article, aside, footer, header, main, nav, section
   margin: 0;
 }
 
-.banner{
+header{
+  width:100%;
+  position:fixed;
   background-color: lightblue;
   color: green;
-  padding-top: 0px;
-  padding-left: 15px;
   margin: 0px;
-  font-size: 40px; 
+  font-size: 40px;
+  z-index: 1;
 }
 
 #profile{
   font-family:cursive;
+  padding-top: 0px;
+  padding-left: 15px;
 }
 
 body{
@@ -27,6 +30,7 @@ body{
 
 aside{
   width: 200px;
+  margin-top:65px;
   padding-left:15px;
   padding-right:30px;
   float: left;
@@ -37,8 +41,11 @@ section{
 }
 
 main{
- float:middle;
- padding-right:20px;
+  float:center;
+  padding-right:20px;
+  padding-top:20px;
+  width:1080px ;
+  height: 600px;
 }
 
 footer{
@@ -65,8 +72,9 @@ li{
   text-decoration:none;
 }
 
-.enbededPage{
-  position:fixed;
+.embededPage{
+  position:absolute;
+  margin-top:65px;
   width:1080px ;
-  height:540px;
+  height:500px;
 }
