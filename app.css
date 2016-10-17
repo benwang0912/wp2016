@@ -41,11 +41,17 @@ section{
 }
 
 main{
-  float:center;
   padding-right:20px;
   padding-top:20px;
   width:1080px ;
   height: 600px;
+}
+
+.embededPage{
+  position:absolute;
+  margin-top:65px;
+  width:1080px ;
+  height:500px;
 }
 
 footer{
@@ -68,13 +74,14 @@ li{
 }
 
 .links{
-  color:blue;
   text-decoration:none;
 }
 
-.embededPage{
-  position:absolute;
-  margin-top:65px;
-  width:1080px ;
-  height:500px;
+.unhighlighted{
+  color:#0066cc;
 }
+.highlighted{
+  color:#000079;
+  cursor:pointer;
+}
+
