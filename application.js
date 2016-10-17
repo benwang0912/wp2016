@@ -17,11 +17,13 @@ $(document).ready(function() {
     parent.append(newElement);
  });
   //toggle works link
-  $(".works").on("click",function(){
-    $(this).parent().find("ul").toggle(300);
-  });
-  $(".refs").on("click",function(){
-    $(this).parent().find("ul").toggle(300);
+  $(".toggleLinkButton").on("click",function(){
+    $(this).parent().parent().find("ul").toggle(300);
+    if($(this).hasClass("faceDown")){
+      $(this).removeClass("faceDown");
+    }else{
+      $(this).addClass("faceDown");
+    }
   });
   
 });
