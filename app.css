@@ -20,8 +20,23 @@ header{
   font-family:cursive;
   padding-top: 0px;
   padding-left: 15px;
+  display: inline;
+}
+#home{
+  display:inline;
+  float:right;
+  padding-top:10px;
+  padding-right:30px;
 }
 
+#portrait{
+  height:120px;
+  width:120px;
+}
+#largePortrait{
+  height: 180px;
+  width: 180px;
+}
 body{
   background-color: #f0f0f0;
   margin-left:auto;

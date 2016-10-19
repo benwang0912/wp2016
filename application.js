@@ -25,6 +25,13 @@ $(document).ready(function() {
       $(this).addClass("faceDown");
     }
   });
-  
+  $("#portrait").on("mouseenter", function(){
+    $(this).removeAttr("portrait");
+    $(this).attr("id", "largePortrait");
+  });
+  $("#portrait").on("mouseleave", function(){
+    $(this).removeAttr("largePortrait");
+    $(this).attr("id", "portrait");
+  });
 });
 
